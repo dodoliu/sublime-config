@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$(${1:result.ResultData.Result}).each (index,item) ->
+	${2:self.${3:ojbArray}.push} self.Ojb2Obj item
+	return
+]]></content>	
+	<tabTrigger>coffee_ko_each_jquery</tabTrigger>	
+	<scope>source.coffee</scope>
+	<description>生成一个coffee的使用jquery的each函数遍历数组,将item转换为ko对象后放入新数组</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$.getJSON(${1:urls}, ${2:params}, function(result) {
+    if (${3:result.IsSuccess}) {
+        ${4:block}
+    }
+});
+]]></content>
+	<tabTrigger>jquery_getjson</tabTrigger>	
+	<scope>source.js</scope>
+	<description>生成一个jquery的getjson</description>
+</snippet>

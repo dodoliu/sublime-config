@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+self.Ojb2Obj = (data) ->		
+	tmp = {}
+	for key of data
+		tmp[key] = ko.observable if ko.isObservable data[key] then data[key]() else data[key]
+	return tmp
+]]></content>	
+	<tabTrigger>coffee_ko_obj2obj_function</tabTrigger>	
+	<scope>source.coffee</scope>
+	<description>生成一个coffee的将普通对象转ko对象的函数</description>
+</snippet>

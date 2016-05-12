@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+KoModel = ()->
+	self = @
+	self.urls = {}
+
+
+
+
+	self.Init = ()->
+		
+		return
+
+	ko.computed ()-> 
+		self.Init() 
+		
+		return
+
+	return
+
+ko.applyBindings(new KoModel())
+]]></content>	
+	<tabTrigger>ko_model_coffee</tabTrigger>	
+	<scope>source.coffee</scope>
+	<description>生成一个ko的model,使用coffee</description>
+</snippet>

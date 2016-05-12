@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+self.${1:FunctionName} = ()->
+	\$.getJSON ${2:Url},${3:Params},(result)->
+		if result.IsSuccess
+			${4:result}
+		return
+]]></content>	
+	<tabTrigger>coffee_ko_getjson_function</tabTrigger>	
+	<scope>source.coffee</scope>
+	<description>生成一个coffee的ko的getjson函数</description>
+</snippet>

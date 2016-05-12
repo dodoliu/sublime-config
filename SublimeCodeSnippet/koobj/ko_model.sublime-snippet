@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+var KoModel = function () {
+	var self = this;
+	self.urls = {
+
+	};
+
+	self.Init = function () {
+
+	};
+
+	ko.computed(function () {
+		self.Init();
+	});
+};
+ko.applyBindings(new KoModel());
+]]></content>	
+	<tabTrigger>ko_model</tabTrigger>	
+	<scope>source.js</scope>
+	<description>生成一个ko的model</description>
+</snippet>

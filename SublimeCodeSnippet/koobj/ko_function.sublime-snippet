@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+self.${1:functionName} = function(${2:params}){
+	${3:body}
+};
+]]></content>
+	<tabTrigger>ko_function</tabTrigger>
+	<scope>source.js</scope>
+	<description>生成一个ko的function</description>
+</snippet>

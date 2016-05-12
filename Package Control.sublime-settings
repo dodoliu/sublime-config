@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"Emmet",
+		"File Rename",
+		"JavaScript Snippets",
+		"JS Snippets",
+		"JsFormat",
+		"JSHint",
+		"JSHint Gutter",
+		"Package Control",
+		"SideBarEnhancements",
+		"Sublime-KnockoutJS-Snippets",
+		"SublimeLinter"
+	]
+}
