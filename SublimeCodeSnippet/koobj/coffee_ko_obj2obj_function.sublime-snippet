@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-self.Ojb2Obj = (data) ->		
+self.Obj2Obj = (data) ->		
 	tmp = {}
 	for key of data
 		tmp[key] = ko.observable if ko.isObservable data[key] then data[key]() else data[key]
