@@ -13,6 +13,8 @@
 		"JsFormat",
 		"JSHint",
 		"JSHint Gutter",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
 		"Package Control",
 		"SideBarEnhancements",
 		"Sublime-KnockoutJS-Snippets",
