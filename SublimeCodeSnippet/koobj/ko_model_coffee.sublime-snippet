@@ -18,7 +18,7 @@ KoModel = ()->
 
 	return
 
-ko.applyBindings(new KoModel())
+ko.applyBindings new KoModel()
 ]]></content>	
 	<tabTrigger>ko_model_coffee</tabTrigger>	
 	<scope>source.coffee</scope>

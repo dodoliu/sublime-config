@@ -8,6 +8,8 @@
 		"Better CoffeeScript",
 		"Emmet",
 		"File Rename",
+		"Git",
+		"HTML5",
 		"JavaScript Snippets",
 		"JS Snippets",
 		"JsFormat",
@@ -16,6 +18,7 @@
 		"MarkdownEditing",
 		"OmniMarkupPreviewer",
 		"Package Control",
+		"Qunit Snippets",
 		"SideBarEnhancements",
 		"Sublime-KnockoutJS-Snippets",
 		"SublimeLinter"
