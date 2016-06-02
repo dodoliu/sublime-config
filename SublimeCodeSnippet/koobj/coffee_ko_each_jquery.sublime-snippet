@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$(${1:result.ResultData.Result}).each (index,item) ->
-	${2:self.${3:ojbArray}.push} self.Ojb2Obj item
+	${2:self.${3:ojbArray}.push} self.Obj2Obj item
 	return
 ]]></content>	
 	<tabTrigger>coffee_ko_each_jquery</tabTrigger>	
