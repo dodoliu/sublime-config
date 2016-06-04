@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+self.${1:FunctionName} = (${2:arg}) ->
+  ${3:body}
+]]></content>
+  <tabTrigger>coffee_ko_function</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>生成一个coffee的ko的function</description>
+</snippet>
