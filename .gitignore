@@ -1,1 +1,6 @@
 /Package Control.cache
+.DS_Store
+Package Control.merged-ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+Package Control.last-run
