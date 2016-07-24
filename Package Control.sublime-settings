@@ -20,11 +20,12 @@
 		"OmniMarkupPreviewer",
 		"Package Control",
 		"Qunit Snippets",
+		"Rails Developer Snippets",
 		"Ruby on Rails snippets",
 		"SideBarEnhancements",
 		"Sublime-KnockoutJS-Snippets",
 		"SublimeLinter",
-		"Terminal",
-		"Sublimerge Pro"
+		"Sublimerge Pro",
+		"Terminal"
 	]
 }
