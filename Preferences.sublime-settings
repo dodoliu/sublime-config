@@ -5,5 +5,6 @@
 		"Vintage"
 	],
 	"tab_size": 2,
+	"terminal": "iTerm2-v3.sh",
 	"translate_tabs_to_spaces": true
 }
