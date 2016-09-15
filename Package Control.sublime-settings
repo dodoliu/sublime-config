@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"ConvertToUTF8",
 		"Emmet",
 		"File Rename",
 		"Git",
