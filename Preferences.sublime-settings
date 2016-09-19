@@ -1,11 +1,12 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 11,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"tab_size": 2,
+	"terminal": "iTerm2-v3.sh",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
 	"wrap_width": 80
