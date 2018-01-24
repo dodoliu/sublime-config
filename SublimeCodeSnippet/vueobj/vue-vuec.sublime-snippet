@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+Vue.component('${1:yh-component-name}', {
+    template: `${2:html}`,
+    data: function () {
+        return {
+        	${3:}
+        }
+    },
+    props: {
+    	${4:propA: {
+            type: String,
+            required: true,
+            default: '默认值'
+        }},
+        ${5:propB: {
+            type: Boolean,
+            required: true,
+            default: false
+        }}
+    },
+    methods: {
+    	${6:}
+    },
+    computed: {
+    	${7:}
+    },
+    watch: {
+    	${8:}
+    },
+    mounted: function () {
+        var self = this;
+        self.$nextTick(function () {
+	    	${9:}
+        });
+    }
+});
+]]></content>
+	<tabTrigger>vuec</tabTrigger>
+	<scope>source.js</scope>
+	<description>创建一个vue组件框架</description>
+</snippet>
